@@ -1,0 +1,102 @@
+.smallerPicture {
+    width: 600px;
+    height: 400px;
+    background-color: rgb(9, 194, 240);
+    text-align: center;
+    border-radius: 35px;
+}
+
+.smallerPicture1 {
+    width: 600px;
+    height: 400px;
+    background-color: rgb(9, 194, 240);
+}
+
+.biggerpicture {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centered {
+    text-align: center;
+    background-color: rgb(9, 194, 240);
+    position: fixed;
+    height: 100px;
+    width: 270px;
+    top: 50%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -135px;
+}
+
+#wrapper {
+    border: 1px solid blue
+}
+
+body {
+    background-color: blue;
+}
+
+img {
+    border-radius: 35px;
+}
+
+input {
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+}
+
+form.register { 
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-gap: 20px;
+}
+
+.area_for_form {
+    display:flex;
+    justify-content: center;
+}
+
+.selection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    border: 2px solid black;
+}
+
+a:hover {
+    color: red;
+    font-size: 20px
+}
+
+a:visited {
+    color: green;
+}
+
+a:active {
+    color: black;
+}
+
+form.login > input:hover {
+    width: 300px;
+    height: 40px;
+}
+
+form.login > input:active {
+    width: 300px;
+    height: 40px;
+    color: #40F7AF;
+}
+
+form.register > input.submit:hover {
+    width: 250px;
+    height: 40px;
+}
